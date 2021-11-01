@@ -178,7 +178,7 @@ let allEven2 = [2, 4, 128, 365] ⊢ {$0.isMultiple(of: 2)}
 print(allEven2)
 
 
-@_functionBuilder
+@resultBuilder
 struct GreetingBuilder {
     static func buildBlock(_ items: String...) -> [String] {
         return items.map { "Hello \($0)" }
